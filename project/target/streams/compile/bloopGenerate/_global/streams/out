@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0m[curl-to-scala-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[curl-to-scala-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'curl-to-scala-build' to '/Users/davi/gits/curl-to-scala/project/.bloop/curl-to-scala-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/curl-to-scala-build.json[0m

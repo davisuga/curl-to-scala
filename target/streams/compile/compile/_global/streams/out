@@ -1,0 +1,91 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/davi/gits/curl-to-scala/src/main/scala/com/davisuga/curltoscala/codegen.scala:60:26 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m60 |[0m[33mobject[0m [35mCombinator[0m [33mextends[0m [35mRegexParsers[0m {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                          ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                          Not found: type RegexParsers[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/davi/gits/curl-to-scala/src/main/scala/com/davisuga/curltoscala/codegen.scala:59:18 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m59 |[0m[33mimport[0m scala.util.parsing.combinator._[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m       ^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      value parsing is not a member of util - did you mean util.Sorting?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/davi/gits/curl-to-scala/src/main/scala/com/davisuga/curltoscala/codegen.scala:68:10 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m68 |[0m    ([31m"-X"[0m | [31m"--request"[0m) ~> [31m"\\s+"[0m.r ~> ([31m"GET"[0m | [31m"POST"[0m | [31m"PUT"[0m | [31m"DELETE"[0m) ^^ Method[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m     ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue | is not a member of String.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mAn extension method was tried, but could not be fully constructed:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    [35m<error value parsing is not a member of util - did you mean util.Sorting?>[0m#[35m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      combinator[0m.|()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    failed with:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        Reference to | is ambiguous,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        it is both imported by import fastparse._[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        and imported subsequently by import (<error value parsing is not a member of util - did you mean util.Sorting?>#[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          combinator :[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          <error value parsing is not a member of util - did you mean util.Sorting?>)._[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/davi/gits/curl-to-scala/src/main/scala/com/davisuga/curltoscala/codegen.scala:71:10 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m71 |[0m    ([31m"-H"[0m | [31m"--header"[0m) ~> [31m"\\s+"[0m.r ~> [31m"\""[0m ~> [31m"[^:]+"[0m.r ~ ([31m":"[0m ~> [31m"\\s+"[0m.r ~> [31m"[^\"]+"[0m.r <~ [31m"\""[0m) ^^ {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m     ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue | is not a member of String.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mAn extension method was tried, but could not be fully constructed:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    [35m<error value parsing is not a member of util - did you mean util.Sorting?>[0m#[35m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      combinator[0m.|()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    failed with:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        Reference to | is ambiguous,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        it is both imported by import fastparse._[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        and imported subsequently by import (<error value parsing is not a member of util - did you mean util.Sorting?>#[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          combinator :[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          <error value parsing is not a member of util - did you mean util.Sorting?>)._[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/davi/gits/curl-to-scala/src/main/scala/com/davisuga/curltoscala/codegen.scala:75:10 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m75 |[0m    ([31m"-d"[0m | [31m"--data"[0m) ~> [31m"\\s+"[0m.r ~> [31m"\""[0m ~> [31m"[^\"]+"[0m.r <~ [31m"\""[0m ^^ Data[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m     ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue | is not a member of String.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mAn extension method was tried, but could not be fully constructed:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    [35m<error value parsing is not a member of util - did you mean util.Sorting?>[0m#[35m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      combinator[0m.|()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    failed with:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        Reference to | is ambiguous,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        it is both imported by import fastparse._[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        and imported subsequently by import (<error value parsing is not a member of util - did you mean util.Sorting?>#[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          combinator :[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          <error value parsing is not a member of util - did you mean util.Sorting?>)._[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/davi/gits/curl-to-scala/src/main/scala/com/davisuga/curltoscala/codegen.scala:84:28 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m84 |[0m        [33mval[0m [36mheaders[0m = parts.collect { [33mcase[0m Header(name, value) =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                      ^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue collect is not a member of Any.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mAn extension method was tried, but could not be fully constructed:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    [35m<error value parsing is not a member of util - did you mean util.Sorting?>[0m#[35m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      combinator[0m.collect()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    failed with:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        Reference to collect is ambiguous,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        it is both imported by import fastparse._[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        and imported subsequently by import (<error value parsing is not a member of util - did you mean util.Sorting?>#[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          combinator :[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          <error value parsing is not a member of util - did you mean util.Sorting?>)._[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/davi/gits/curl-to-scala/src/main/scala/com/davisuga/curltoscala/codegen.scala:43:26 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m43 |[0m      [33mval[0m [36mheaders[0m = parts.collect { [33mcase[0m Header(name, value) =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                    ^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue collect is not a member of Any.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mAn extension method was tried, but could not be fully constructed:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    [35m<error value parsing is not a member of util - did you mean util.Sorting?>[0m#[35m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      combinator[0m.collect()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    failed with:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        Reference to collect is ambiguous,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        it is both imported by import fastparse._[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        and imported subsequently by import (<error value parsing is not a member of util - did you mean util.Sorting?>#[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          combinator :[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          <error value parsing is not a member of util - did you mean util.Sorting?>)._[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m

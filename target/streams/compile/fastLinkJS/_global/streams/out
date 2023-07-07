@@ -1,0 +1,24 @@
+[0m[[0m[0minfo[0m] [0m[0mFast optimizing /Users/davi/gits/curl-to-scala/target/scala-3.3.0/curl-to-scala-fastopt[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 32632 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 7592 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: 63523 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Batch mode: false[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Incremental part: 16909 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Optimizing 83 methods.[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Optimizer part: 15068 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: 34444 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 18557 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 2145 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 20978 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Calculate Dependency Info: 125 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Analyze Modules: 52 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Assemble Modules: 402 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: 622 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Generate Classes: 21534 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Write trees: 921 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 691 -- invalidated: 10[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: reused: 2654 -- invalidated: 40[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: 27720 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mBasicBackend: Write result: 13175 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mBasicBackend: total top-level trees: 6917; re-computed: 224[0m
+[0m[[0m[0mdebug[0m] [0m[0mBasicBackend: total modules: 1; re-written: 1[0m
